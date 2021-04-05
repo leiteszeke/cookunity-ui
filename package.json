@@ -149,5 +149,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "consistencss": "^1.6.0",
+    "react-native-svg": "^12.1.0"
   }
 }
