@@ -1,6 +1,6 @@
 # cookunity-ui
 
-Cookunity React Native Components UI
+CookUnity UI Library
 
 ## Installation
 
