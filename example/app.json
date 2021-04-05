@@ -1,0 +1,22 @@
+{
+  "name": "cookunity-ui-example",
+  "displayName": "CookunityUi Example",
+  "expo": {
+    "name": "cookunity-ui-example",
+    "slug": "cookunity-ui-example",
+    "description": "Example app for cookunity-ui",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
