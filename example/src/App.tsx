@@ -8,21 +8,23 @@ import {
   Platform,
 } from 'react-native';
 import { classNames, apply, C } from 'cookunity-ui';
-
-import ColorsScreen from './ColorsScreen';
-import TextsScreen from './TextsScreen';
-import ButtonScreen from './ButtonScreen';
 import { useFonts } from 'expo-font';
+
+import ButtonScreen from './ButtonScreen';
+import ColorsScreen from './ColorsScreen';
+import DonutScreen from './DonutScreen';
+import TextsScreen from './TextsScreen';
 
 const screenHeight = Dimensions.get('window').height;
 
 enum Screen {
   Button = 'Button',
   Colors = 'Colors',
+  Donut = 'Donut',
   Texts = 'Texts',
 }
 
-const screens = [Screen.Colors, Screen.Texts, Screen.Button];
+const screens = [Screen.Colors, Screen.Donut, Screen.Texts, Screen.Button];
 
 const App = () => {
   useFonts({
@@ -45,6 +47,9 @@ const App = () => {
 
       case Screen.Colors:
         return ColorsScreen;
+
+      case Screen.Donut:
+        return DonutScreen;
 
       case Screen.Texts:
         return TextsScreen;

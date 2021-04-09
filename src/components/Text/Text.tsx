@@ -38,7 +38,7 @@ const Text = ({
           variant === TextVariant.Heading && size === TextSize.Heading2,
         'font5 line7':
           variant === TextVariant.Heading && size === TextSize.Heading3,
-        'font4 line6':
+        'font4 line4':
           variant === TextVariant.Heading && size === TextSize.Heading4,
         'familyGilroySemiBold font5 line6': variant === TextVariant.Quote,
         'familyRobotoBold line3': variant === TextVariant.Caption,
@@ -56,7 +56,7 @@ const Text = ({
       { color },
       variant === TextVariant.Caption && { fontSize: 10 },
       variant === TextVariant.Paragraph &&
-        size === TextSize.Paragraph2 && { fontSize: 14, lineHeight: 22 },
+        size === TextSize.Paragraph2 && { fontSize: 14, lineHeight: 18 },
       uppercase && { textTransform: 'uppercase' }
     )}
   >

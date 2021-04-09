@@ -9,7 +9,6 @@ import Button, {
 export { Button, ButtonIconPosition, ButtonProps, ButtonSize, ButtonVariant };
 
 // Colors
-
 import {
   PrimaryColor,
   SecondaryColor,
@@ -27,6 +26,11 @@ export {
   TextColor,
   withAlpha,
 };
+
+// Donut
+import Donut from './components/Donut';
+
+export { Donut };
 
 // Icon Button
 import IconButton, {
